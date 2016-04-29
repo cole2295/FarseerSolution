@@ -1,0 +1,21 @@
+[submodule "Farseer.Net.Sql.Demo"]
+	path = Farseer.Net.Sql.Demo
+	url = https://github.com/FarseerNet/Farseer.Net.Sql.Demo.git
+[submodule "Farseer.Net"]
+	path = Farseer.Net
+	url = https://github.com/FarseerNet/Farseer.Net.git
+[submodule "Farseer.Net.DI"]
+	path = Farseer.Net.DI
+	url = https://github.com/FarseerNet/Farseer.Net.DI.git
+[submodule "Farseer.Net.Sql"]
+	path = Farseer.Net.Sql
+	url = https://github.com/FarseerNet/Farseer.Net.Sql.git
+[submodule "Farseer.Net.Redis"]
+	path = Farseer.Net.Redis
+	url = https://github.com/FarseerNet/Farseer.Net.Redis.git
+[submodule "Farseer.Net.Tools"]
+	path = Farseer.Net.Tools
+	url = https://github.com/FarseerNet/Farseer.Net.Tools.git
+[submodule "Farseer.Net.Utils"]
+	path = Farseer.Net.Utils
+	url = https://github.com/FarseerNet/Farseer.Net.Utils.git
