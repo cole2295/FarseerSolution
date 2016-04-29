@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net", "Farseer.Net\Src\Farseer.Net.csproj", "{F6345D1B-C5DC-464C-A417-C02D7CD37E52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net", "Framework\Farseer.Net\Src\Farseer.Net.csproj", "{F6345D1B-C5DC-464C-A417-C02D7CD37E52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.DI", "Farseer.Net.DI\Src\Farseer.Net.DI.csproj", "{619D386D-A5E6-49A7-8F99-02F6838080B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.DI", "Framework\Farseer.Net.DI\Src\Farseer.Net.DI.csproj", "{619D386D-A5E6-49A7-8F99-02F6838080B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Redis", "Farseer.Net.Redis\Src\Farseer.Net.Redis.csproj", "{99D6F4E7-980B-4115-AE5A-DA0C17129780}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Redis", "Framework\Farseer.Net.Redis\Src\Farseer.Net.Redis.csproj", "{99D6F4E7-980B-4115-AE5A-DA0C17129780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Sql", "Farseer.Net.Sql\Src\Farseer.Net.Sql.csproj", "{0484262D-0AFC-4AB6-BAAF-E944778FF30E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Sql", "Framework\Farseer.Net.Sql\Src\Farseer.Net.Sql.csproj", "{0484262D-0AFC-4AB6-BAAF-E944778FF30E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Utils", "Farseer.Net.Utils\Src\Farseer.Net.Utils\Farseer.Net.Utils.csproj", "{F82573C6-360B-4795-AEB2-C57D947857D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Utils", "Framework\Farseer.Net.Utils\Src\Farseer.Net.Utils\Farseer.Net.Utils.csproj", "{F82573C6-360B-4795-AEB2-C57D947857D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Utils.Form", "Farseer.Net.Utils\Src\Farseer.Net.Utils.Form\Farseer.Net.Utils.Form.csproj", "{E6AD8305-13AD-4FA6-B9C7-7F183222D734}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Utils.Form", "Framework\Farseer.Net.Utils\Src\Farseer.Net.Utils.Form\Farseer.Net.Utils.Form.csproj", "{E6AD8305-13AD-4FA6-B9C7-7F183222D734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Utils.Web", "Farseer.Net.Utils\Src\Farseer.Net.Utils.Web\Farseer.Net.Utils.Web.csproj", "{9FBAA409-251A-428C-B222-F7426D19C244}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer.Net.Utils.Web", "Framework\Farseer.Net.Utils\Src\Farseer.Net.Utils.Web\Farseer.Net.Utils.Web.csproj", "{9FBAA409-251A-428C-B222-F7426D19C244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FsGit", "Framework\FsGit\FsGit.csproj", "{9ACEC03F-C747-411C-9129-341B0DE543E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,14 @@ Global
 		{9FBAA409-251A-428C-B222-F7426D19C244}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9FBAA409-251A-428C-B222-F7426D19C244}.Release|x64.ActiveCfg = Release|Any CPU
 		{9FBAA409-251A-428C-B222-F7426D19C244}.Release|x64.Build.0 = Release|Any CPU
+		{9ACEC03F-C747-411C-9129-341B0DE543E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACEC03F-C747-411C-9129-341B0DE543E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACEC03F-C747-411C-9129-341B0DE543E5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9ACEC03F-C747-411C-9129-341B0DE543E5}.Debug|x64.Build.0 = Debug|Any CPU
+		{9ACEC03F-C747-411C-9129-341B0DE543E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACEC03F-C747-411C-9129-341B0DE543E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACEC03F-C747-411C-9129-341B0DE543E5}.Release|x64.ActiveCfg = Release|Any CPU
+		{9ACEC03F-C747-411C-9129-341B0DE543E5}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,3 +3,5 @@
 !db.config
 bin
 obj
+/packages
+.vs
