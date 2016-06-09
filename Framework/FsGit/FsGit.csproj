@@ -186,8 +186,16 @@
     <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Farseer.Net.Redis\Src\Farseer.Net.Redis.csproj">
+      <Project>{99d6f4e7-980b-4115-ae5a-da0c17129780}</Project>
+      <Name>Farseer.Net.Redis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Farseer.Net.Sql\Src\Farseer.Net.Sql.csproj">
+      <Project>{0484262d-0afc-4ab6-baaf-e944778ff30e}</Project>
+      <Name>Farseer.Net.Sql</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Farseer.Net.Utils\Src\Farseer.Net.Utils.Web\Farseer.Net.Utils.Web.csproj">
-      <Project>{9FBAA409-251A-428C-B222-F7426D19C244}</Project>
+      <Project>{9fbaa409-251a-428c-b222-f7426d19c244}</Project>
       <Name>Farseer.Net.Utils.Web</Name>
     </ProjectReference>
     <ProjectReference Include="..\Farseer.Net.Utils\Src\Farseer.Net.Utils\Farseer.Net.Utils.csproj">
@@ -195,7 +203,7 @@
       <Name>Farseer.Net.Utils</Name>
     </ProjectReference>
     <ProjectReference Include="..\Farseer.Net\Src\Farseer.Net.csproj">
-      <Project>{F6345D1B-C5DC-464C-A417-C02D7CD37E52}</Project>
+      <Project>{f6345d1b-c5dc-464c-a417-c02d7cd37e52}</Project>
       <Name>Farseer.Net</Name>
     </ProjectReference>
   </ItemGroup>
